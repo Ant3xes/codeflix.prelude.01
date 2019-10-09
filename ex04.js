@@ -8,3 +8,4 @@ module.exports = function capitalize(str = "", restToLoweropt=false) {
     }
     
 }
+
