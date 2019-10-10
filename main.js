@@ -9,6 +9,10 @@ const swapCase = require('./ex08')
 const charAt = require('./ex09')
 const first = require('./ex10')
 const last = require('./ex11')
+const substr = require('./ex12')
+const slice = require('./ex13')
+const count = require('./ex14')
+const countSubstring = require('./ex15')
 
 console.log('lowerCase');
 console.log(lowerCase('Chopper'));
@@ -53,7 +57,7 @@ console.log("end \n")
 
 console.log('charAt')
 console.log(charAt('chopper', 0))
-console.log(charAt('chopper', 2))
+console.log(charAt('chopper', 1))
 console.log("end \n")
 
 console.log('first')
@@ -66,4 +70,15 @@ console.log('last')
 console.log(last('chopper'))
 console.log(last('chopper', 2))
 console.log(last('tony', 5))
+console.log("end \n")
+
+console.log('substr')
+console.log(substr('tony tony chopper', 10))
+console.log(substr('ch0pper', 2, 10))
+console.log("end \n")
+
+console.log('substr')
+console.log(slice('ch0pper', 1))
+console.log(slice('ch0pper', -4))
+console.log(slice('ch0pper', 1, 4))
 console.log("end \n")
